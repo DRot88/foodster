@@ -19,6 +19,10 @@ gem 'sass-rails'
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets'
+#pagination to separate comments per page
+gem 'will_paginate', '~> 3.1.0'
+#simpleform makes easy to use forms
+gem 'simple_form'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
