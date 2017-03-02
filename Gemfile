@@ -25,6 +25,12 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'simple_form'
 #Devise for user authentication
 gem 'devise'
+#geocoder for map integration
+gem 'geocoder', '1.3.4'
+#awesome_print for easy read format in terminal for objects
+gem 'awesome_print'
+#figaro to securely configure rails application
+gem 'figaro', '>= 1.0.0' 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
